@@ -1,4 +1,4 @@
-function check(str, bracketsConfig) {
+module.exports = function check(str, bracketsConfig) {
   let pattern = [];
   let stackUniq = [];
   let stackEqual = [];
